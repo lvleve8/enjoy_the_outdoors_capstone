@@ -31,22 +31,36 @@
 
 
 
-   
-      <!-- dropdown for our categories -->
-      <select id="categoriesSelect" name="categoriesSelect" </select>
-  
-      <!-- this is our table for our results -->
-      <table id="nationalTable">
-          <thead>
-            <th>LocationID</th>
-            <th>Name</th>
-            <th>Adress</th>
-            <th>Phone</th>
-            <th>URL</th>
-          </tbody>
-      </table>
+       
+    <form id="buttonForm">
+      <h4>Search by:</h4>
+<input type="radio" name="location" id="location" value="location" checked>
+<label for="location">Location</label>
+<input type="radio" name="type" id="type" value="type">
+<label for="type">Type</label>
+
+    </form>
+<form id="selectForm">
+      <select id="selectPark"></select>
+      <select id="selectType"></select>
+    </form>
+
+    <table id="infoTable" class="table table-striped"```>
+      <thead>
+       <th>Location ID </th>
+       <th>Name</th>
+       <th>Address</th>
+       <th>Phone</th>
+       <th>Url</th>
+   </thead>
+   <tbody id="inforTableBody">
+
+   </tbody>
 
 
+   </table>
+
+    
 
 
 
