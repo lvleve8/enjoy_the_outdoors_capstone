@@ -27,42 +27,55 @@
           </nav>
     </header>
 
-    <h1>National Parks</h1>
+    <h1 style="text-align: center;">National Parks!!!!</h1>
 
 
+  <h4 style="text-align: center;">Search by:</h4>
+  <form id="buttonForm" class="flex-container">
+    <div class="d-flex justify-content-center gap-2">
+    <input type="radio" name="general" id="location" value="location" >
+    <label for="location">Location</label>
+    <input type="radio" name="general" id="type" value="type">
+    <label for="type">Type</label>
+    </div>
 
-       
-    <form id="buttonForm">
-      <h4>Search by:</h4>
-<input type="radio" name="location" id="location" value="location" checked>
-<label for="location">Location</label>
-<input type="radio" name="type" id="type" value="type">
-<label for="type">Type</label>
-
-    </form>
-<form id="selectForm">
-      <select id="selectPark"></select>
-      <select id="selectType"></select>
-    </form>
-
-    <table id="infoTable" class="table table-striped"```>
-      <thead>
-       <th>Location ID </th>
-       <th>Name</th>
-       <th>Address</th>
-       <th>Phone</th>
-       <th>Url</th>
-   </thead>
-   <tbody id="inforTableBody">
-
-   </tbody>
+  </form>
+  <form id="selectForm" class="flex-container">
+    <div div class="d-flex justify-content-center gap-2">
+    <select id="selectPark" class="mb-3"></select>
+    <select id="selectType" class="mb-3"></select>
+  </div>
+  </form>
 
 
-   </table>
+  <table id="infoTable" class="table table-dark table-striped-columns table-bordered" >
+    <thead>
+      <th>Location ID </th>
+      <th>Name</th>
+      <th>Address</th>
+      <th>Phone</th>
+      <th>Url</th>
+    </thead>
+    <tbody id="infoTableBody" class="table-group-divider">
+
+    </tbody>
+
+
+  </table>
+
+
+  <img  width="30000"   src="https://static.vecteezy.com/system/resources/previews/001/957/197/original/group-of-hikers-one-line-drawing-of-people-hiking-on-mountain-continuous-hand-drawn-illustration-vector.jpg" class="img-fluid" alt="...">
+
+
 
     
 
+  <p class="card-text"></p>
+  <p class="card-text"><small class="text-body-secondary"></small></p>
+</div>
+<img  width="3000" height="100" src="https://th.bing.com/th/id/R.31ba7cc779eb847b2231c27ba7b2be40?rik=21iI%2biCnLzKSsQ&riu=http%3a%2f%2fwww.solidbackgrounds.com%2fimages%2f2560x1440%2f2560x1440-davys-grey-solid-color-background.jpg&ehk=fM5DszD01DvzSYshQkSdC25KEOswWGn%2fJrfKHGz%2b6LU%3d&risl=&pid=ImgRaw&r=0" class="card-img-bottom" alt="...">
 
+      
 
     <!-- Bootstrap JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
